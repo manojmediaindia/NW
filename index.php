@@ -14,6 +14,30 @@
 
 <link rel="icon" href="images/favicon.gif" sizes="32x32">
 <link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon">
+    <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/interface.js"></script>
+    <script type="text/javascript">
+    
+	$(document).ready(
+		function()
+		{
+			$('#dock2').Fisheye(
+				{
+					maxWidth: 60,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container2',
+					itemWidth: 80,
+					proximity: 80,
+					alignment : 'left',
+					valign: 'bottom',
+					halign : 'center'
+				}
+			)
+		}
+	);
+
+</script>
 
 <link href="Style/style.css" rel="stylesheet" type="text/css" media="screen, projection" />
 
@@ -23,13 +47,12 @@
 <?php include("header.php"); ?>
 
 <div class="banner">
-<img src="Images/Banner_1.png"  alt="banner" />
+<img src="Images/banner_new.gif"  alt="banner" />
 </div>
 
     <div class="index_container">
     
-        
-        <div class="midsection">
+             <div class="midsection">
 <div class="row-fluid">
 <section>
 <ul>
@@ -66,9 +89,6 @@
 <li class="span1">
 <div class="smartphone"></div><span><a href="#" title="Smart Phone"></a></span>
 </li>
-<li class="span1">
-<div class="bodyprotection"></div><span><a href="#" title="Body Protection"></a></span>
-</li>
 </ul>
 </section>
 </div>
@@ -76,7 +96,6 @@
     
     
     </div>
-
 
         <div class="info_container">
 
@@ -123,7 +142,7 @@
 
             <div class="edu_adv_box">
             <p class="edu_text">
-            On retrouve beaucoup d'information et d'&#233;tudes, parfois contradictoires au sujet du risque portant sur le sujet des &#233;tudes &#233;lectromagn&#233;tiques. Ce site a pour vocation de recenser pour les diff&#233;    rentes technologies de diffusion et d'&#233;missions d'ondes, les risques reconnus selon les &#233;tudes publi&#233;es.
+            On retrouve beaucoup d'information et d'&#233;tudes, parfois contradictoires au sujet du risque portant sur le sujet des &#233;tudes &#233;lectromagn&#233;tiques. Ce site a pour vocation de recenser pour les diff&#233;	rentes technologies de diffusion et d'&#233;missions d'ondes, les risques reconnus selon les &#233;tudes publi&#233;es.
             </p>
                 <div class="more_info1">
                   <a class="info_more1" href="">Lire</a>
