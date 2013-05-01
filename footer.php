@@ -46,7 +46,9 @@
         <li><a href="">Solutions</a></li>
         <li><a href="">Business</a></li>
         </ul>
-
+        <div class="blank"></div>
+        <div class="footer_copy">&copy 2011-2013 Media India Group</div>
+        <hr class="hr"></hr>
         </div>
-    <div class="footer_copy">&copy 2013 Media India Group</div>
+    
 </div>
