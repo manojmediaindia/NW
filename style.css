@@ -59,17 +59,16 @@ filter:alpha(opacity=90);
 }
 .menu_quote
 {
-    float:right;
-    width:100%;
-    max-width:100%;
+    width: 80%;
+   
     height:20px;   
 }
 .menu_quote span
 {
-    font-size:10px;
-    margin:2px 0px 0px 15px;
-    float:left;
+    font-size:11px;
     color: #3a3939;
+   
+    float: right;
 }
 
 .clear
@@ -760,17 +759,17 @@ filter:alpha(opacity=90);
 }
 .menu_quote
 {
-    float:right;
-    width:450px;
-    max-width:60%;
-    height:20px;   
+    width: 85%;
+    height:20px; 
+    
 }
 .menu_quote span
 {
-    font-size:10px;
-    margin:2px 0px 0px 15px;
-    float:left;
+    font-size:11px;
     color: #3a3939;
+    float: right;
+
+    margin: 2px 0px 0px 0px;
 }
 
 .clear
@@ -1457,19 +1456,17 @@ filter:alpha(opacity=90);
 }
 .menu_quote
 {
-    float:right;
-    width:450px;
-    max-width:60%;
+    width: 80%;
+   
     height:20px;   
 }
 .menu_quote span
 {
-    font-size:10px;
-    margin:2px 0px 0px 15px;
-    float:left;
+    font-size:11px;
     color: #3a3939;
+   
+    float: right;
 }
-
 .clear
 {
     clear: both;
@@ -2152,17 +2149,16 @@ filter:alpha(opacity=90);
 }
 .menu_quote
 {
-    float:right;
-    width:450px;
-    max-width:60%;
+    width: 80%;
+   
     height:20px;   
 }
 .menu_quote span
 {
-    font-size:10px;
-    margin:2px 0px 0px 15px;
-    float:left;
+    font-size:11px;
     color: #3a3939;
+   
+    float: right;
 }
 
 .clear
@@ -2845,16 +2841,16 @@ filter:alpha(opacity=90);
 }
 .menu_quote
 {
+    width: 80%;
    
-    width:75%;
     height:20px;   
 }
 .menu_quote span
 {
-    font-size:10px;
-    margin:2px 0px 0px 15px;
-    float:left;
+    font-size:11px;
     color: #3a3939;
+   
+    float: right;
 }
 
 .clear
