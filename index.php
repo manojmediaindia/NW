@@ -12,8 +12,8 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
-<link rel="icon" href="images/favicon.gif" sizes="32x32">
-<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon">
+<link rel="icon" href="Images/favicon.gif" sizes="32x32">
+<link rel="shortcut icon" href="Images/favicon.gif" type="image/x-icon">
     <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/interface.js"></script>
     <script type="text/javascript">
@@ -39,7 +39,7 @@
 
 </script>
 
-<link href="Style/style.css" rel="stylesheet" type="text/css" media="screen, projection" />
+<link href="Style/Style.css" rel="stylesheet" type="text/css" media="screen, projection" />
 
 </head>
 
@@ -108,7 +108,7 @@
                   <p class="info-content">Le domicile, ou le lieu de travail sont g&#233;n&#233;ralement charg&#233;s en pollutions &#233;lectromagn&#233;tiques. La diffusion permanente du Wifi, la proximit&#233; d'antennes-relais ou de lignes hautes tensions...</p>
                   <div class="more_info">
                   <a class="info_more" href="">Lire</a>
-                  <img class="info_more_img" src="images/read_more.png" width="10px" alt="Read More" />
+                  <img class="info_more_img" src="Images/read_more.png" width="10px" alt="Read More" />
                       </div>
               </div>
 
@@ -118,7 +118,7 @@
                   <p class="info-content">La grande majorit&#233; des foyers sont expos&#233;s &#224; un ou plusieurs r&#233;seaux WiFi. Le signal Wi-fi d&#233;sorganise les processus physiologiques et d&#233;truit des structures biochimiques...</p>
                   <div class="more_info">
                   <a class="info_more" href="">Lire</a>
-                  <img class="info_more_img" src="images/read_more.png" width="10px" alt="Read More" />
+                  <img class="info_more_img" src="Images/read_more.png" width="10px" alt="Read More" />
                       </div>
               </div>
 
@@ -128,7 +128,7 @@
                   <p class="info-content">Depuis de nombreuses ann&#233;es des &#233;tudes tendent &#224; d&#233;montrer les risques pour la sant&#233; de l'usage du t&#233;l&#233;phone portable. L'Organisation Mondiale de la Sant&#233; (OMS) a indiqu&#233;...</p>
                   <div class="more_info">
                   <a class="info_more" href="">Lire</a>
-                  <img class="info_more_img" src="images/read_more.png" width="10px" alt="Read More" />
+                  <img class="info_more_img" src="Images/read_more.png" width="10px" alt="Read More" />
                       </div>
               </div>
 
@@ -146,7 +146,7 @@
             </p>
                 <div class="more_info1">
                   <a class="info_more1" href="">Lire</a>
-                  <img class="info_more_img1" src="images/read_more.png" width="10px" alt="Read More" />
+                  <img class="info_more_img1" src="Images/read_more.png" width="10px" alt="Read More" />
                       </div>
             </div>
 
@@ -160,7 +160,7 @@
 Dans le cas du t&#233;l&#233;phone portable, nous pr&#233;conisons les mesures suivantes propos&#233;es par l'appel de 20 experts internationaux rassembl&#233;s par David Servan-Schreiber en 2008 <a href="">Link to PDF</a> Cet appel, fait echo &#224; l'appel des medecins de Fribourg lanc&#233; d&#232;s 2002. <a href="">Link to PDF</a> </p>
                     <div class="more_info1">
                   <a class="info_more1" href="">Lire</a>
-                  <img class="info_more_img1" src="images/read_more.png" width="10px" alt="Read More" />
+                  <img class="info_more_img1" src="Images/read_more.png" width="10px" alt="Read More" />
                       </div>
             </div>
 
