@@ -135,7 +135,11 @@ filter:alpha(opacity=90);
     float:right;
 }
 
+/* DOCK START*/
 
+
+
+/* DOCK ENDS*/
 
 
 /* MENU STARTS*/
@@ -145,7 +149,6 @@ filter:alpha(opacity=90);
     width:1024px;
     max-width:100%;
     margin:15px auto;
-    
     float: left;
 }
 
@@ -262,10 +265,10 @@ filter:alpha(opacity=90);
 }
 .wifi:hover
 {
-	cursor:pointer;
+    cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+    background-size:64px;
 }
 .cellantenna
 {
@@ -892,7 +895,7 @@ filter:alpha(opacity=90);
 {
     width: 1024px;
     max-width: 100%;
-    height: 760px;
+    height: 765px;
     background-color:#fff;
     margin: 0px auto;
 }
@@ -931,8 +934,8 @@ filter:alpha(opacity=90);
   float: left;
   width: 100%;
   min-height: 30px;
-  margin-left: 2.127659574468085%;
-  *margin-left: 2.074468085106383%;
+  margin-left: 2.827659574468085%;
+  *margin-left: 2.374468085106383%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -952,183 +955,184 @@ filter:alpha(opacity=90);
 }
 .wifi
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
+
 }
 .wifi:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .cellantenna
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .bluetooth
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .bluetooth:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Bluetooth.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .tablet
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .laptop
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Laptop-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .powerline
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .babyphone
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+background-size:75px;
 }
 .electricmeter
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .homeprotection
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+background-size:75px;
 }
 .smartphone
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+background-size:75px;
 }
 .bodyprotection
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .cordlessphone
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 
 
@@ -1627,8 +1631,8 @@ filter:alpha(opacity=90);
   float: left;
   width: 100%;
   min-height: 30px;
-  margin-left: 2.127659574468085%;
-  *margin-left: 2.074468085106383%;
+  margin-left: 2.717659574468085%;
+  *margin-left: 2.274468085106383%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -1648,183 +1652,184 @@ filter:alpha(opacity=90);
 }
 .wifi
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
+
 }
 .wifi:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .cellantenna
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .bluetooth
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .bluetooth:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Bluetooth.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .tablet
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .laptop
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Laptop-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .powerline
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:75px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .babyphone
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+background-size:75px;
 }
 .electricmeter
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .homeprotection
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+background-size:75px;
 }
 .smartphone
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+background-size:75px;
 }
 .bodyprotection
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .cordlessphone
 {
-	width:58px;
-	height:52px;
+	width:74px;
+	height:59px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:75px;
 }
 
 
@@ -2282,7 +2287,7 @@ filter:alpha(opacity=90);
 {
     width: 1024px;
     max-width: 100%;
-    height: 740px;
+    height: 700px;
     background-color:#fff;
     margin: 0px auto;
 }
@@ -2321,7 +2326,7 @@ filter:alpha(opacity=90);
   float: left;
   width: 100%;
   min-height: 30px;
-  margin-left: 2.127659574468085%;
+  margin-left: 2.727659574468085%;
   *margin-left: 2.074468085106383%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -2342,183 +2347,183 @@ filter:alpha(opacity=90);
 }
 .wifi
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:65px;
 }
 .wifi:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:65px;
 }
 .cellantenna
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:65px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:65px;
 }
 .bluetooth
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:65px;
 }
 .bluetooth:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Bluetooth.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:65px;
 }
 .tablet
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .laptop
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/Laptop-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:65px;
 }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .powerline
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:65px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .babyphone
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:65px;
 }
 .electricmeter
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .homeprotection
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+background-size:65px;
 }
 .smartphone
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+background-size:65px;
 }
 .bodyprotection
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .cordlessphone
 {
-	width:58px;
+	width:65px;
 	height:52px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:65px;
 }
 
 
@@ -3012,8 +3017,8 @@ filter:alpha(opacity=90);
   float: left;
   width: 100%;
   min-height: 30px;
-  margin-left: 2.127659574468085%;
-  *margin-left: 2.074468085106383%;
+  margin-left: 2.727659574468085%;
+  *margin-left: 2.374468085106383%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -4268,7 +4273,7 @@ background-size:45px;
   float: left;
   width: 100%;
   min-height: 30px;
-  margin-left: 2.127659574468085%;
+  margin-left: 2.827659574468085%;
   *margin-left: 2.074468085106383%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -4289,183 +4294,183 @@ background-size:45px;
 }
 .wifi
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:47px;
 }
 .wifi:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:47px;
 }
 .cellantenna
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:47px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:47px;
 }
 .bluetooth
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:47px;
 }
 .bluetooth:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Bluetooth.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:47px;
 }
 .tablet
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .laptop
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/Laptop-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:47px;
 }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .powerline
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:47px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .babyphone
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .electricmeter
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .homeprotection
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .smartphone
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .bodyprotection
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .cordlessphone
 {
-	width:45px;
+	width:47px;
 	height:42px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:47px;
 }
 .info_container
 {
@@ -4944,8 +4949,8 @@ filter:alpha(opacity=90);
   float: left;
   width: 100%;
   min-height: 30px;
-  margin-left: 2.127659574468085%;
-  *margin-left: 2.074468085106383%;
+  margin-left: 2.727659574468085%;
+  *margin-left: 2.374468085106383%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -5632,7 +5637,7 @@ filter:alpha(opacity=90);
   float: left;
   width: 100%;
   min-height: 30px;
-  margin-left: 2.127659574468085%;
+  margin-left: 2.427659574468085%;
   *margin-left: 2.074468085106383%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -5653,41 +5658,41 @@ filter:alpha(opacity=90);
 }
 .wifi
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:25px;
+	background-size:28px;
 }
 .wifi:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:25px;
+	background-size:28px;
 }
 .cellantenna
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:25px;
+	background-size:28px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .bluetooth
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:25px;
+background-size:28px;
 }
 .bluetooth:hover
 {
@@ -5698,138 +5703,138 @@ background-size:25px;
 }
 .tablet
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .laptop
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/Laptop-Grey.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .powerline
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .babyphone
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .electricmeter
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .homeprotection
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .smartphone
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .bodyprotection
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .cordlessphone
 {
-	width:25px;
+	width:28px;
 	height:22px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:25px;
+background-size:28px;
 }
 
 
@@ -5840,7 +5845,7 @@ background-size:25px;
 {
     
     width: 93%;
-    height:380px;  
+    height:360px;  
     margin:5px 0px 0px 15px;
    
 }
@@ -5858,8 +5863,9 @@ background-size:25px;
 .info_box
 {
     width:auto;
-    height: 80px;
+    height: 120px;
     margin:20px 0px 0px 0px;
+   
     float: left;
     display: table;
    
@@ -5869,7 +5875,7 @@ background-size:25px;
   
         float: left;
         width: 28%;
-        height: 300px;
+        height: 280px;
     }
 .boximg
 {
@@ -5901,12 +5907,13 @@ background-size:25px;
 }
 .info-content
 {
-    height:170px;
+    height:150px;
     font-family: 'Segoe UI',AvalonN,Arial;
     font-weight: lighter;
     font-size: 10px;
     text-align: justify;
     color: #8A8A8A;
+  
 }
 .more_info
 {
@@ -6051,7 +6058,7 @@ background-size:25px;
 {
     width:80%;
     height:130px;
-    margin: 10px 10px 10px 80px;
+    margin: 10px 10px 10px 40px;
         background: none;
 }
 
@@ -6066,7 +6073,7 @@ background-size:25px;
     width: 200px;
     margin: 0px auto;
     height: 50px;
-    font-size: 13px;
+    font-size: 11px;
     color:#494949;
 }
 
@@ -6076,7 +6083,7 @@ background-size:25px;
     margin:0px 0px 0px 0px;
      list-style-type:none;
       float: left;
-        width: 60px;
+        width: 80px;
 }
 
 .footer_menu li a
@@ -6117,6 +6124,9 @@ background-size:25px;
 }
 
 /* Meta Query Ends*/
+
+
+
 
 
 
