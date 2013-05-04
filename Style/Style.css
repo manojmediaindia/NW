@@ -11,7 +11,9 @@ License: @MIG
 License URI: http://www.mediaindia.eu
 
 */
-
+#nnn{
+display: none;
+}
 *
 {
     margin:0px;
@@ -26,12 +28,13 @@ body
 {
     margin:0px;
     padding:0px;
-    background-color: #F7F5F5;
-    background: url(../Images/Background.png) no-repeat; 
-    -webkit-background-size:100%;
-    -moz-background-size:100%; 
-    -o-background-size:100%;
-    background-size:100%;
+    background-color: #E6ECF6;
+    background-image: url(../Images/Background.png); 
+    background-position: center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover; 
+    -o-background-size:cover;
+    background-size:cover;
     font-family:Segoe UI, Segoe UI Light, Segoe UI Semilight, AvalonN, Arial, Verdana, Times New Roman;
 }
 
@@ -56,27 +59,80 @@ filter:alpha(opacity=90);
 .menu_icons img
 {
     width:18px; 
-}
+}   
 .menu_quote
 {
-    float:right;
-    width:100%;
-    max-width:100%;
+    width: 80%;
+   
     height:20px;   
 }
 .menu_quote span
 {
-    font-size:10px;
-    margin:2px 0px 0px 15px;
-    float:left;
+    font-size:11px;
     color: #3a3939;
+   
+    float: right;
 }
 
-.clear
+/*  second menu start */
+
+#pull
 {
-    clear: both;
-    margin:8px 0px 0px 0px;
+	display:none;
+	width:100%;
+	height:auto;
+	
 }
+
+.toggleMenu
+{
+    display: none;
+    color: #fff;
+}
+
+#nav-two-neo {
+    list-style: none;
+     *zoom: 1;
+     background:#fff;
+     width:100%;
+   
+}
+#nav-two-neo:before,
+#nav-two-neo:after {
+    content: " "; 
+    display: table; 
+}
+#nav-two-neo:after {
+    clear: both;
+}
+#nav-two-neo ul {
+    list-style: none;
+    width: auto;
+}
+#nav-two-neo a {
+    color:#CCCCCC;
+    padding:5px;
+    text-align:left;
+    font-size:13px;
+    padding-left:20px;
+    font-family:Century Gothic;
+	font-weight:lighter;
+}
+#nav-two-neo li {
+    position: relative;
+}
+#nav-two-neo > li {
+    float: left;
+    border-top: 1px solid #E5E4E4;
+}
+
+
+#nav-two-neo > li > a {
+    display: block;
+}
+
+
+/*  second menu ends */
 .header
 {
     width:1024px;
@@ -144,35 +200,7 @@ filter:alpha(opacity=90);
 
 /* MENU STARTS*/
 
-.nav
- {
-    width:1024px;
-    max-width:100%;
-    margin:15px auto;
-    float: left;
-}
 
-.nav ul
-{
-    width: 100%;
-    max-width: 100%;
-    list-style-type: none;
-}
-.nav ul li a
-{
-    display: block;
-    float: left;
-    padding-left: 60px;
-    padding-right: 50px;
-    font-size: 19px;
-    font-family: 'Century Gothic', 'Segoe UI';
-    font-weight: normal;
-    color: #494949;
-}
-.nav ul li a:hover
-{
-    color: #2B8BC5;
-}
 
 /* MENU ENDS*/
 
@@ -202,253 +230,7 @@ filter:alpha(opacity=90);
     margin: 0px auto;
 }
 
-/*  ICONS*/
 
-
-.midsection	
-{
-	height:auto;
-	padding:18px;
-}
-.midsection ul
-{
-	margin:0;
-	padding:0;
-	}
-.row-fluid {
-  width: 100%;
-  *zoom: 1;
-}
-
-.row-fluid:before,
-.row-fluid:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-
-.row-fluid:after {
-  clear: both;
-}
-
-.row-fluid [class*="span"] {
-  display: block;
-  float: left;
-  width: 100%;
-  min-height: 30px;
-  margin-left: 2.127659574468085%;
-  *margin-left: 2.074468085106383%;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.row-fluid [class*="span"]:first-child {
-  margin-left: 0;
-}
-
-.row-fluid .controls-row [class*="span"] + [class*="span"] {
-  margin-left: 2.127659574468085%;
-}
-
-.row-fluid .span1 {
-  width: 6.382978723404255%;
-  *width: 6.329787234042553%;
-}
-.wifi
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/WIFI-Grey.png);
-	background-repeat:no-repeat;
-	background-size:58px;
-}
-.wifi:hover
-{
-    cursor:pointer;
-	background-image:url(../Images/icons/WIFI.png);
-	background-repeat:no-repeat;
-    background-size:64px;
-}
-.cellantenna
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/Cell-Antena-Grey.png);
-	background-repeat:no-repeat;
-	background-size:58px;
-}
-.cellantenna:hover
-{
-	cursor:pointer;
-	background-image:url(../Images/icons/Cell-Antena.png);
-	background-repeat:no-repeat;
-	background-size:58px;
-}
-.bluetooth
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/Bluetooth-Grey.png);
-	background-repeat:no-repeat;
-	background-size:58px;
-}
-.bluetooth:hover
-{
-	cursor:pointer;
-	background-image:url(../Images/icons/Bluetooth.png);
-	background-repeat:no-repeat;
-	background-size:58px;
-}
-.tablet
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/Tablet-Grey.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.tablet:hover
-{
-	cursor:pointer;
-	background-image:url(../Images/icons/Tablet.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.laptop
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/Laptop-Grey.png);
-	background-repeat:no-repeat;
-	background-size:58px;
-}
-.laptop:hover
-{
-	cursor:pointer;
-	background-image:url(../Images/icons/Laptop.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.powerline
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/Power-Line-Grey.png);
-	background-repeat:no-repeat;
-	background-size:58px;
-}
-.powerline:hover
-{
-	cursor:pointer;
-	background-image:url(../Images/icons/Power-Line.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.babyphone
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/Baby-Phone-Grey.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.babyphone:hover
-{
-	cursor:pointer;
-	background-image:url(../Images/icons/Baby-Phone.png);
-	background-repeat:no-repeat;
-	background-size:58px;
-}
-.electricmeter
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/Electric-Meter-Grey.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.electricmeter:hover
-{
-	cursor:pointer;
-	background-image:url(../Images/icons/Electric-Meter.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.homeprotection
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/Home-Grey.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.homeprotection:hover
-{
-	cursor:pointer;
-	background-image:url(../Images/icons/Home.png);
-	background-repeat:no-repeat;
-	background-size:58px;
-}
-.smartphone
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/Smart-Phone-Grey.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.smartphone:hover
-{
-    cursor:pointer;
-	background-image:url(../Images/icons/Smart-Phone.png);
-	background-repeat:no-repeat;
-	background-size:58px;
-}
-.bodyprotection
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/Body-Protection-Grey.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.bodyprotection:hover
-{
-	cursor:pointer;
-	background-image:url(../Images/icons/Body-Protection.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.cordlessphone
-{
-	width:58px;
-	height:52px;
-	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-.cordlessphone:hover
-{
-	cursor:pointer;
-	background-image:url(../Images/icons/Cordless-Phone.png);
-	background-repeat:no-repeat;
-background-size:58px;
-}
-
-
-/* ICONS ENDS */
-
-
-.info_container
-{
-    
-    width: 950px;
-    height:420px;
-    max-width: 100%;
-  
-   margin:10px 0px 0px 30px;
-}
 .info
 {
     font-size:19px;
@@ -459,39 +241,9 @@ background-size:58px;
 	padding-top:15px;
 	line-height:28px;
 }
-.info_box
-{
-    width: 950px;
-    max-width: 100%;
-    height: 345px;
-    margin:20px 0px 0px 0px;
-    float: left;
-    display: table;
-}
 
-.box1
-{
-    float: left;
-   width:28%;
-    height:300px;
-   
-    
-}
-.box2
-{
-     float: left;
-   width:28%;
-    height: 300px;
-   
-    margin: 0px 0px 0px 75px;
-}
-.box3
-{
-    float: right;
-    width:28%;
-    height:300px;
-    
-}
+
+
 .info-head
 {
     margin: 10px 0px 0px 0px;
@@ -595,9 +347,9 @@ background-size:58px;
     margin: 20px 30px 0px 20px;
    
 }
-.edu_text a
+.link-to-pdf
 {
-   font-family: 'Segoe UI',AvalonN,Arial;
+   font-family:Helvetica, 'Segoe UI','Arial';
     font-weight: lighter;
     font-size: 12px;
     text-align: justify;
@@ -644,27 +396,24 @@ background-size:58px;
 /* Footer */
 .footer
 {
-    background: url(../Images/footer.png) no-repeat; 
-    -webkit-background-size:100%;
-    -moz-background-size:100%; 
-    -o-background-size:100%;
-    background-size:100%;
+    background-image: url(../Images/footer.png); 
+    background-position: center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover; 
+    -o-background-size:cover;
+    background-size:cover;
     width: 100%;
-    max-width: 100%;
     height: 220px;
 }
 .footer_inside
 {
-    width: 1024px;
-    max-width: 100%;
+    width:100%;
     background-image: url(../Images/footerwave.png);
-   
     background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size:100%;
-    -moz-background-size:100%; 
-    -o-background-size:100%;
-    background-size:100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover; 
+    -o-background-size:cover;
+    background-size:cover;
     height:220px;
     margin: 0px auto;
   
@@ -760,17 +509,17 @@ filter:alpha(opacity=90);
 }
 .menu_quote
 {
-    float:right;
-    width:450px;
-    max-width:60%;
-    height:20px;   
+    width: 85%;
+    height:20px; 
+    
 }
 .menu_quote span
 {
-    font-size:10px;
-    margin:2px 0px 0px 15px;
-    float:left;
+    font-size:11px;
     color: #3a3939;
+    float: right;
+
+    margin: 2px 0px 0px 0px;
 }
 
 .clear
@@ -955,11 +704,11 @@ filter:alpha(opacity=90);
 }
 .wifi
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+	background-size:60px;
 
 }
 .wifi:hover
@@ -967,172 +716,172 @@ filter:alpha(opacity=90);
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+	background-size:60px;
 }
 .cellantenna
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+	background-size:60px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+	background-size:60px;
 }
 .bluetooth
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+	background-size:60px;
 }
 .bluetooth:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Bluetooth.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+	background-size:60px;
 }
 .tablet
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .laptop
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/Laptop-Grey.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+background-size:60px;
 }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .powerline
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+background-size:60px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .babyphone
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .electricmeter
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .homeprotection
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .smartphone
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .bodyprotection
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .cordlessphone
 {
-	width:74px;
-	height:59px;
+	width:60px;
+	height:60px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 
 
@@ -1294,9 +1043,9 @@ background-size:75px;
     margin: 20px 30px 0px 20px;
    
 }
-.edu_text a
+.link-to-pdf
 {
-   font-family: 'Segoe UI',AvalonN,Arial;
+   font-family:Helvetica, 'Segoe UI','Arial';
     font-weight: lighter;
     font-size: 12px;
     text-align: justify;
@@ -1457,19 +1206,16 @@ filter:alpha(opacity=90);
 }
 .menu_quote
 {
-    float:right;
-    width:450px;
-    max-width:60%;
+    width: 80%;
     height:20px;   
 }
 .menu_quote span
 {
-    font-size:10px;
-    margin:2px 0px 0px 15px;
-    float:left;
+    font-size:11px;
     color: #3a3939;
+    margin: 4px 0px 0px 0px;
+    float: right;
 }
-
 .clear
 {
     clear: both;
@@ -1652,11 +1398,11 @@ filter:alpha(opacity=90);
 }
 .wifi
 {
-	width:74px;
+	width:60px;
 	height:59px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+	background-size:60px;
 
 }
 .wifi:hover
@@ -1664,172 +1410,171 @@ filter:alpha(opacity=90);
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+	background-size:60px;
 }
 .cellantenna
 {
-	width:74px;
+	width:60px;
 	height:59px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+	background-size:60px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+	background-size:60px;
 }
 .bluetooth
 {
-	width:74px;
+	width:60px;
 	height:59px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+background-size:60px;
 }
 .bluetooth:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Bluetooth.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+	background-size:60px;
 }
 .tablet
 {
-	width:74px;
+	width:60px;
 	height:59px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
-.laptop
-{
-	width:74px;
-	height:59px;
-	background-image:url(../Images/icons/Laptop-Grey.png);
-	background-repeat:no-repeat;
-	background-size:75px;
-}
+    .laptop {
+        width: 60px;
+        height: 59px;
+        background-image: url(../Images/icons/Laptop-Grey.png);
+        background-repeat: no-repeat;
+        background-size: 60px;
+    }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .powerline
 {
-	width:74px;
+	width:60px;
 	height:59px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-	background-size:75px;
+background-size:60px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .babyphone
 {
-	width:74px;
+	width:60px;
 	height:59px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .electricmeter
 {
-	width:74px;
+	width:60px;
 	height:59px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .homeprotection
 {
-	width:74px;
+	width:60px;
 	height:59px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .smartphone
 {
-	width:74px;
+	width:60px;
 	height:59px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .bodyprotection
 {
-	width:74px;
+	width:60px;
 	height:59px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .cordlessphone
 {
-	width:74px;
+	width:60px;
 	height:59px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:75px;
+background-size:60px;
 }
 
 
@@ -1930,7 +1675,6 @@ background-size:75px;
     float: right;
 }
 
-
 .edu_adv
 {
     width: 1000px;
@@ -1991,15 +1735,15 @@ background-size:75px;
     margin: 20px 30px 0px 20px;
    
 }
-.edu_text a
+.link-to-pdf
 {
-   font-family: 'Segoe UI',AvalonN,Arial;
+   font-family:Helvetica, 'Segoe UI','Arial';
     font-weight: lighter;
     font-size: 12px;
     text-align: justify;
     color: #494949; 
 }
-.edu_text a:hover
+.link-to-pdf:hover
 {
     text-decoration: underline;
 }
@@ -2129,6 +1873,10 @@ background-size:75px;
 
 @media  only screen and (min-width:641px) and (max-width:800px)
 {
+    body 
+{
+    background: none;
+}
   .menu_main
 {
     max-width:100%;
@@ -2152,23 +1900,22 @@ filter:alpha(opacity=90);
 }
 .menu_quote
 {
-    float:right;
-    width:450px;
-    max-width:60%;
+    width: 83%;
+   
     height:20px;   
 }
 .menu_quote span
 {
-    font-size:10px;
-    margin:2px 0px 0px 15px;
-    float:left;
+    font-size:11px;
     color: #3a3939;
+   height:20px;   
+    margin: 3px 0px 0px 0px;
 }
 
 .clear
 {
-    clear: both;
-    margin:8px 0px 0px 0px;
+   background-color: #CFCFCF;
+    width:600px;
 }
 .header
 {
@@ -2325,8 +2072,8 @@ filter:alpha(opacity=90);
   display: block;
   float: left;
   width: 100%;
-  min-height: 30px;
-  margin-left: 2.727659574468085%;
+  min-height: 25px;
+  margin-left: 2.927659574468085%;
   *margin-left: 2.074468085106383%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -2347,183 +2094,183 @@ filter:alpha(opacity=90);
 }
 .wifi
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:65px;
+	background-size:45px;
 }
 .wifi:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:65px;
+	background-size:45px;
 }
 .cellantenna
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:65px;
+	background-size:45px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-	background-size:65px;
+	background-size:45px;
 }
 .bluetooth
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:65px;
+	background-size:45px;
 }
 .bluetooth:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Bluetooth.png);
 	background-repeat:no-repeat;
-	background-size:65px;
+	background-size:45px;
 }
 .tablet
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .laptop
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Laptop-Grey.png);
 	background-repeat:no-repeat;
-	background-size:65px;
+	background-size:45px;
 }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .powerline
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-	background-size:65px;
+	background-size:45px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .babyphone
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-	background-size:65px;
+	background-size:45px;
 }
 .electricmeter
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .homeprotection
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .smartphone
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .bodyprotection
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .cordlessphone
 {
-	width:65px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:65px;
+background-size:45px;
 }
 
 
@@ -2673,9 +2420,6 @@ background-size:65px;
     box-shadow: 0 6px 6px -2px #CFCFCF;
 }
 
-
-
-
 .edu_text
 {
     height:150px;
@@ -2687,15 +2431,15 @@ background-size:65px;
     margin: 20px 30px 0px 20px;
    
 }
-.edu_text a
+.link-to-pdf
 {
-   font-family: 'Segoe UI',AvalonN,Arial;
+   font-family: Helvetica,'Segoe UI',Arial;
     font-weight: lighter;
     font-size: 12px;
     text-align: justify;
     color: #494949; 
 }
-.edu_text a:hover
+.link-to-pdf:hover
 {
     text-decoration: underline;
 }
@@ -2730,32 +2474,20 @@ background-size:65px;
 
 
 
-
-
-
 /* Footer */
 .footer
 {
-    background: url(../Images/footer.png) no-repeat; 
-    -webkit-background-size:100%;
-    -moz-background-size:100%; 
-    -o-background-size:100%;
-    background-size:100%;
+    background: none;
+   
     width: 100%;
     height: 130px;
+   
 }
 .footer_inside
 {
     width:80%;
-    background-image: url(../Images/footerwave.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size:80%;
-    -moz-background-size:80%; 
-    -o-background-size:80%;
-    background-size:80%;
-    height:130px;
-    margin: 10px 10px 10px 120px;
+    background: none;
+    height:120px;
 }
 
 .blank{
@@ -2766,18 +2498,20 @@ background-size:65px;
 
 .footer_copy
 {
-    width: 200px;
-    margin: 0px auto;
-    height: 50px;
-    
-    font-size: 13px;
-    color:#f3f3f3;
+    width: 100%;
+    height: 15px;
+    line-height: 12px;
+    float:left;
+    font-size: 12px;
+    color:#000;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
 }
 
 .footer_menu
 {
     padding:0;
-    margin:0px 0px 0px 10px;
+    margin:10px 0px 0px 20px;
      list-style-type:none;
       float: left;
         width: 80px;
@@ -2785,7 +2519,7 @@ background-size:65px;
 
 .footer_menu li a
 {
-    color:#696969;
+    color:#000;
     font-size: 12px;
 }
 .footer_menu .menu1
@@ -2814,7 +2548,7 @@ background-size:65px;
     width: 100%;
     max-width: 100%;
     height: 1px;
-    background-color: #fff;
+    background-color: #22741F;
 }
 
     
@@ -2822,6 +2556,10 @@ background-size:65px;
 
 @media  only screen and (min-width:534px) and (max-width:640px)
 {
+    body
+{
+    background: none;
+}
   .menu_main
 {
     max-width:100%;
@@ -2845,16 +2583,15 @@ filter:alpha(opacity=90);
 }
 .menu_quote
 {
-   
-    width:75%;
+    width: 80%;
     height:20px;   
 }
 .menu_quote span
 {
     font-size:10px;
-    margin:2px 0px 0px 15px;
-    float:left;
     color: #3a3939;
+    margin: 3px 0px 0px 0px;
+    float: right;
 }
 
 .clear
@@ -2978,7 +2715,7 @@ filter:alpha(opacity=90);
 {
     width: 1024px;
     max-width: 100%;
-    height: 740px;
+    height: 730px;
     background-color:#fff;
     margin: 0px auto;
 }
@@ -3038,183 +2775,183 @@ filter:alpha(opacity=90);
 }
 .wifi
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:45px;
 }
 .wifi:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:45px;
 }
 .cellantenna
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:45px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:45px;
 }
 .bluetooth
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:45px;
 }
 .bluetooth:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Bluetooth.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:45px;
 }
 .tablet
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .laptop
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Laptop-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:45px;
 }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .powerline
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:45px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .babyphone
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:45px;
 }
 .electricmeter
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .homeprotection
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:45px;
 }
 .smartphone
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-	background-size:58px;
+	background-size:45px;
 }
 .bodyprotection
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .cordlessphone
 {
-	width:58px;
+	width:45px;
 	height:52px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:58px;
+background-size:45px;
 }
 
 
@@ -3371,7 +3108,7 @@ background-size:58px;
 .edu_text
 {
     height:160px;
-    font-family: 'Segoe UI',AvalonN,Arial;
+    font-family: 'Segoe UI', AvalonN,Arial;
     font-weight: lighter;
     font-size: 11px;
     text-align: justify;
@@ -3379,15 +3116,15 @@ background-size:58px;
     margin: 20px 30px 0px 20px;
    
 }
-.edu_text a
+.link-to-pdf
 {
-   font-family: 'Segoe UI',AvalonN,Arial;
+   font-family: 'Segoe UI', AvalonN,Arial;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 11px;
     text-align: justify;
     color: #494949; 
 }
-.edu_text a:hover
+.link-to-pdf:hover
 {
     text-decoration: underline;
 }
@@ -3495,7 +3232,7 @@ background-size:58px;
     width: 100%;
     max-width: 100%;
     height: 1px;
-    background-color: #fff;
+   background-color: #22741F;
 }
 
     
@@ -3547,6 +3284,7 @@ filter:alpha(opacity=90);
 {
     clear: both;
     margin:8px 0px 0px 0px;
+    background-color: #fff;
 }
 .header
 {
@@ -3725,41 +3463,41 @@ filter:alpha(opacity=90);
 }
 .wifi
 {
-	width:45px;
-	height:42px;
+	width:10px;
+	height:15px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:5px;
 }
 .wifi:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:5px;
 }
 .cellantenna
 {
-	width:45px;
-	height:42px;
+	width:10px;
+	height:15px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:5px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:5px;
 }
 .bluetooth
 {
-	width:45px;
-	height:42px;
+	width:10px;
+	height:15px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:5px;
 }
 .bluetooth:hover
 {
@@ -4066,15 +3804,15 @@ background-size:45px;
     margin: 20px 30px 0px 20px;
    
 }
-.edu_text a
+.link-to-pdf
 {
-   font-family: 'Segoe UI',AvalonN,Arial;
+   font-family: Helvetica,'Segoe UI',Arial;
     font-weight: lighter;
     font-size: 12px;
     text-align: justify;
     color: #494949; 
 }
-.edu_text a:hover
+.link-to-pdf:hover
 {
     text-decoration: underline;
 }
@@ -4294,183 +4032,183 @@ background-size:45px;
 }
 .wifi
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:47px;
+	background-size:40px;
 }
 .wifi:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:47px;
+	background-size:40px;
 }
 .cellantenna
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:47px;
+	background-size:40px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-	background-size:47px;
+	background-size:40px;
 }
 .bluetooth
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:47px;
+	background-size:40px;
 }
 .bluetooth:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Bluetooth.png);
 	background-repeat:no-repeat;
-	background-size:47px;
+	background-size:40px;
 }
 .tablet
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .laptop
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/Laptop-Grey.png);
 	background-repeat:no-repeat;
-	background-size:47px;
+	background-size:40px;
 }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .powerline
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-	background-size:47px;
+background-size:40px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .babyphone
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .electricmeter
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .homeprotection
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .smartphone
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .bodyprotection
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .cordlessphone
 {
-	width:47px;
+	width:40px;
 	height:42px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:47px;
+background-size:40px;
 }
 .info_container
 {
@@ -4630,15 +4368,15 @@ background-size:47px;
     margin: 20px 30px 0px 20px;
    
 }
-.edu_text a
+.link-to-pdf
 {
-   font-family: 'Segoe UI',AvalonN,Arial;
+   font-family: Helvetica,'Segoe UI',Arial;
     font-weight: lighter;
     font-size: 12px;
     text-align: justify;
     color: #494949; 
 }
-.edu_text a:hover
+.link-to-pdf:hover
 {
     text-decoration: underline;
 }
@@ -4767,7 +4505,7 @@ filter:alpha(opacity=90);
 }
 .menu_icons
 {
-    width:130px;
+    width:118px;
     height:20px;
     max-width:100%;
     float:right;
@@ -4797,13 +4535,13 @@ filter:alpha(opacity=90);
 {
     width:1024px;
     max-width:100%;
-    height:110px;
+    height:99px;
     background-color:#fff;
     margin: 0px auto;
 }
 .header .logo
 {
-    margin:20px 0px 0px 35px;
+    margin:5px 0px 0px 10px;
     float:left;
     
 }
@@ -4857,37 +4595,99 @@ filter:alpha(opacity=90);
 
 .nav
  {
-    width:1024px;
-    max-width:100%;
-    margin:15px auto;
-    
-    float: left;
+    display: none;
 }
 
 .nav ul
 {
-    width: 100%;
-    max-width: 100%;
-    list-style-type: none;
-    margin: 0px 0px 0px 10px;
+   display: none;
 }
 .nav ul li a
 {
-    display: block;
-    float: left;
-    padding-left: 8px;
-    padding-right: 8px;
-    font-size: 12px;
-    font-family: 'Century Gothic', 'Segoe UI';
-    font-weight: normal;
-    color: #494949;
+   display: none;
 }
 .nav ul li a:hover
 {
-    color: #2B8BC5;
+   display: none;
 }
 
 /* MENU ENDS*/
+
+#nnn{
+   
+    float:left;
+    height: auto;
+    width:100%;
+    display: inline-block;
+}
+ /* second MENUs start */
+
+.toggleMenu
+{
+	width:25px;
+	height:25px;
+	background-image:url(../Images/menu_bar.png);
+     background-position: center;
+    -webkit-background-size:100%;
+    -moz-background-size:100%;
+    -o-background-size:100%;
+    background-size:100%;
+    background-repeat:no-repeat;
+	background-position:center;
+	display:inline-block;
+    margin: 10px 0px 0px 10px;
+    opacity:0.2;
+	filter:alpha(opacity=20);
+
+}
+.toggleMenu:hover
+{
+	opacity:0.3;
+	filter:alpha(opacity=30);
+
+}
+    #pull 
+{
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+
+#nav-two-neo {
+    list-style: none;
+     *zoom: 1;
+     background:#fff;
+      width:100%;   
+}
+
+ #nav-two-neo > li {
+        float: none;
+        
+       
+    }
+#nav-two-neo > li a
+{
+    color: #3a3939;
+}
+#nav-two-neo > li a:hover
+{
+    color: #2B8BC5;
+}
+    #nav-two-neo > li a img
+     {
+     	width:30px;
+     	opacity:0.2;
+		filter:alpha(opacity=20);
+     }
+     #nav-two-neo > li a img:hover
+     {
+     	width:30px;
+     	opacity:0.9;
+		filter:alpha(opacity=90);
+     }
+    
+
+/* second MENU ends */
 
 
 
@@ -4910,7 +4710,7 @@ filter:alpha(opacity=90);
 {
     width: 1024px;
     max-width: 100%;
-    height: 760px;
+    height:1850px;
     background-color:#fff;
     margin: 0px auto;
 }
@@ -4970,183 +4770,183 @@ filter:alpha(opacity=90);
 }
 .wifi
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:36px;
 }
 .wifi:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:36px;
 }
 .cellantenna
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:36px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:36px;
 }
 .bluetooth
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:36px;
 }
 .bluetooth:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Bluetooth.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:36px;
 }
 .tablet
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .laptop
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/Laptop-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+	background-size:36px;
 }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .powerline
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-	background-size:45px;
+background-size:36px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .babyphone
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .electricmeter
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .homeprotection
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .smartphone
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .bodyprotection
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .cordlessphone
 {
-	width:45px;
-	height:42px;
+	width:36px;
+	height:38px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:45px;
+background-size:36px;
 }
 
 
@@ -5157,7 +4957,7 @@ background-size:45px;
 {
     
     width: 93%;
-    height:380px;  
+    height:auto;  
     margin:5px 0px 0px 15px;
    
 }
@@ -5174,40 +4974,42 @@ background-size:45px;
 }
 .info_box
 {
-    width:auto;
-    height: 80px;
+    width:100%;
+    height: auto;
     margin:20px 0px 0px 0px;
     float: left;
-    display: table;
-   
 }
 
     .box1 {
   
         float: left;
-        width: 28%;
-        height: 300px;
+        width: 100%;
+            height:400px;
+  
+        
     }
 .boximg
 {
-    width: 140px;
+    width:100%;
+    float: left;
+
 }
 .box2
 {
      float: left;
-   width:28%;
-    height: 300px;
-       margin: 0px 0px 0px 30px;
-      
+     width: 100%;
+     height:400px;
+    margin: 0px 0px 0px 0px;
+        
+   
 }
-.box3
-{
-    float:left;
-    width:28%;
-    height:300px;
-     margin: 0px 0px 0px 30px;
-    
-}
+    .box3 {
+         float: left;
+        width: 100%;
+            height:400px;
+  
+        margin: 0px 0px 0px 0px; 
+    }
 .info-head
 {
     margin: 10px 0px 0px 0px;
@@ -5218,12 +5020,14 @@ background-size:45px;
 }
 .info-content
 {
-    height:100px;
+   
     font-family: 'Segoe UI',AvalonN,Arial;
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 13px;
     text-align: justify;
     color: #8A8A8A;
+    float: left;
+    height: auto;
 }
 .more_info
 {
@@ -5247,31 +5051,30 @@ background-size:45px;
 .info_more_img
 {
     margin: 4px 0px 0px 0px;
-    float: right;
 }
 
 
-.edu_adv
+.edu_adv 
 {
-    width:100%;
-     height: 220px;
-    margin: 0px auto;
-    
+   width: 100%;
+   height: auto;
+   float: left;
+ 
+   margin:0px auto;
 }
 .edu
 {
-    width:45%;
-    height: 220px;
-    float: left;
+   width:95%;
+   height: auto;
+   float: left;
     margin: 0px 0px 0px 20px;
-     
 }
 .adv
 {
- width: 45%;
- height: 220px;
-    float: right;   
-   
+ width:95%;
+ height: auto;
+ float:left;
+ margin: 20px 0px 0px 20px;
 }
 .edu_adv_heading
 {
@@ -5285,41 +5088,38 @@ background-size:45px;
 .edu_adv_box
 {
     width: 90%;
-    height: 260px;
     float: left;
     border-top: solid 1px #22741F;
     border-right: solid 1px #f3f3f3;
     border-left: solid 1px #f3f3f3;
     border-bottom: solid 1px #f3f3f3;
-    -webkit-box-shadow: 0 6px 6px -2px #CFCFCF;
-	-moz-box-shadow: 0 6px 6px -2px #CFCFCF;
-    box-shadow: 0 6px 6px -2px #CFCFCF;
-   
+    -webkit-box-shadow: 0 4px 5px -2px #CFCFCF;
+	-moz-box-shadow: 0 4px 5px -2px #CFCFCF;
+    box-shadow: 0 4px 5px -2px #CFCFCF;
+    height: auto;
+    margin: 20px 0px 0px 0px;
 }
 
-
-
-
-.edu_text
+.edu_adv_box .edu_text
 {
-    height:220px;
     font-family: 'Segoe UI',AvalonN,Arial;
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 13px;
     text-align: justify;
     color: #8A8A8A;
-    margin: 20px 30px 0px 20px;
-   
+    float: left;
+   height: auto;
+    
 }
-.edu_text a
+.link-to-pdf
 {
-   font-family: 'Segoe UI',AvalonN,Arial;
+    font-family: 'Segoe UI',AvalonN,Arial;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 13px;
     text-align: justify;
     color: #494949; 
 }
-.edu_text a:hover
+.link-to-pdf:hover
 {
     text-decoration: underline;
 }
@@ -5351,25 +5151,19 @@ background-size:45px;
 }
 
 
-
-
-
-
-
-
 /* Footer */
 .footer
 {
     width: 100%;
     height: 130px;
-    background: none;
+   
 }
 .footer_inside
 {
     width:80%;
     height:130px;
-    margin: 10px 10px 10px 80px;
-        background: none;
+    margin: 10px 10px 10px 60px;
+     
 }
 
 .blank{
@@ -5390,7 +5184,7 @@ background-size:45px;
 .footer_menu
 {
     padding:0;
-    margin:0px 0px 0px 0px;
+    
      list-style-type:none;
       float: left;
         width: 60px;
@@ -5454,7 +5248,7 @@ filter:alpha(opacity=90);
 }
 .menu_icons
 {
-    width:130px;
+    width:90px;
     height:20px;
     max-width:100%;
     float:right;
@@ -5484,32 +5278,32 @@ filter:alpha(opacity=90);
 {
     width:1024px;
     max-width:100%;
-    height:110px;
+    height:70px;
     background-color:#fff;
     margin: 0px auto;
 }
 .header .logo
 {
-    margin:20px 0px 0px 20px;
+    margin:5px 0px 0px 10px;
     float:left;
     
 }
 .header .logo img
 {
- width:60px;
+ width:90px;
 }
 .search
 {
     float:right;
-    width:140px;
+    width:160px;
     height:auto;
-    margin:20px 35px 0px 0px;
-  
+    margin:10px 15px 0px 0px;
+    
 }
 .input_search
 {
-    width:60px;
-	height:18px;
+    width:85px;
+	height:16px;
 	padding-left:5px;
 	font-size:10px;
 	border:solid 1px #a3a3a3;
@@ -5523,7 +5317,7 @@ filter:alpha(opacity=90);
     -moz-border-radius:3px;
     border-radius:3px;
     width:30px;
-    height:22px;
+    height:18px;
     font-size:11px;
     color:#f3f3f3;
     overflow:hidden;
@@ -5545,37 +5339,99 @@ filter:alpha(opacity=90);
 
 .nav
  {
-    width:1024px;
-    max-width:100%;
-    margin:15px auto;
-    
-    float: left;
+    display: none;
 }
 
 .nav ul
 {
-    width: 100%;
-    max-width: 100%;
-    list-style-type: none;
-    margin: 0px 0px 0px 25px;
+   display: none;
 }
 .nav ul li a
 {
-    display: block;
-    float: left;
-    padding-left: 5px;
-    padding-right: 8px;
-    font-size: 12px;
-    font-family: 'Century Gothic', 'Segoe UI';
-    font-weight: normal;
-    color: #494949;
+   display: none;
 }
 .nav ul li a:hover
 {
-    color: #2B8BC5;
+   display: none;
 }
 
 /* MENU ENDS*/
+
+#nnn{
+   
+    float:left;
+    height: auto;
+    width:100%;
+    display: inline-block;
+}
+ /* second MENUs start */
+
+.toggleMenu
+{
+	width:20px;
+	height:20px;
+	background-image:url(../Images/menu_bar.png);
+     background-position: center;
+    -webkit-background-size:100%;
+    -moz-background-size:100%;
+    -o-background-size:100%;
+    background-size:100%;
+    background-repeat:no-repeat;
+	background-position:center;
+	display:inline-block;
+    margin: 10px 0px 0px 10px;
+    opacity:0.2;
+	filter:alpha(opacity=20);
+
+}
+.toggleMenu:hover
+{
+	opacity:0.3;
+	filter:alpha(opacity=30);
+
+}
+    #pull 
+{
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+
+#nav-two-neo {
+    list-style: none;
+     *zoom: 1;
+     background:#fff;
+      width:100%;   
+}
+
+ #nav-two-neo > li {
+        float: none;
+        
+       
+    }
+#nav-two-neo > li a
+{
+    color: #3a3939;
+}
+#nav-two-neo > li a:hover
+{
+    color: #2B8BC5;
+}
+    #nav-two-neo > li a img
+     {
+     	width:30px;
+     	opacity:0.2;
+		filter:alpha(opacity=20);
+     }
+     #nav-two-neo > li a img:hover
+     {
+     	width:30px;
+     	opacity:0.9;
+		filter:alpha(opacity=90);
+     }
+    
+
+/* second MENU ends */
 
 
 
@@ -5598,7 +5454,7 @@ filter:alpha(opacity=90);
 {
     width: 1024px;
     max-width: 100%;
-    height: 850px;
+    height:1650px;
     background-color:#fff;
     margin: 0px auto;
 }
@@ -5637,8 +5493,8 @@ filter:alpha(opacity=90);
   float: left;
   width: 100%;
   min-height: 30px;
-  margin-left: 2.427659574468085%;
-  *margin-left: 2.074468085106383%;
+  margin-left: 2.927659574468085%;
+  *margin-left: 2.374468085106383%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -5658,183 +5514,184 @@ filter:alpha(opacity=90);
 }
 .wifi
 {
-	width:28px;
-	height:22px;
+	width:25px;
+	height:25px;
 	background-image:url(../Images/icons/WIFI-Grey.png);
 	background-repeat:no-repeat;
-	background-size:28px;
+	background-size:25px;
 }
 .wifi:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/WIFI.png);
 	background-repeat:no-repeat;
-	background-size:28px;
+	background-size:25px;
 }
 .cellantenna
 {
-	width:28px;
-	height:22px;
+	width:25px;
+	height:25px;
 	background-image:url(../Images/icons/Cell-Antena-Grey.png);
 	background-repeat:no-repeat;
-	background-size:28px;
+	background-size:25px;
 }
 .cellantenna:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cell-Antena.png);
 	background-repeat:no-repeat;
-background-size:28px;
+	background-size:25px;
 }
 .bluetooth
 {
-	width:28px;
-	height:22px;
+	width:25px;
+	height:25px;
 	background-image:url(../Images/icons/Bluetooth-Grey.png);
 	background-repeat:no-repeat;
-background-size:28px;
+	background-size:25px;
 }
 .bluetooth:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Bluetooth.png);
 	background-repeat:no-repeat;
-	background-size:25px;
+background-size:25px;
 }
 .tablet
 {
-	width:28px;
-	height:22px;
+	width:25px;
+	height:25px;
 	background-image:url(../Images/icons/Tablet-Grey.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .tablet:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Tablet.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .laptop
 {
-	width:28px;
-	height:22px;
+	width:25px;
+	height:25px;
 	background-image:url(../Images/icons/Laptop-Grey.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
+
 }
 .laptop:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Laptop.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .powerline
 {
-	width:28px;
-	height:22px;
+	width:25px;
+	height:25px;
 	background-image:url(../Images/icons/Power-Line-Grey.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .powerline:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Power-Line.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .babyphone
 {
-	width:28px;
-	height:22px;
+	width:25px;
+	height:25px;
 	background-image:url(../Images/icons/Baby-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .babyphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Baby-Phone.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .electricmeter
 {
-	width:28px;
-	height:22px;
+	width:25px;
+	height:25px;
 	background-image:url(../Images/icons/Electric-Meter-Grey.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .electricmeter:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Electric-Meter.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .homeprotection
 {
-	width:28px;
-	height:22px;
+	width:25px;
+	height:25px;
 	background-image:url(../Images/icons/Home-Grey.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .homeprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Home.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .smartphone
 {
-	width:28px;
-	height:22px;
+width:25px;
+	height:25px;
 	background-image:url(../Images/icons/Smart-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .smartphone:hover
 {
     cursor:pointer;
 	background-image:url(../Images/icons/Smart-Phone.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .bodyprotection
 {
-	width:28px;
-	height:22px;
+	width:25px;
+	height:25px;
 	background-image:url(../Images/icons/Body-Protection-Grey.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .bodyprotection:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Body-Protection.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .cordlessphone
 {
-	width:28px;
-	height:22px;
+	width:25px;
+	height:25px;
 	background-image:url(../Images/icons/Cordless-Phone-Grey.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 .cordlessphone:hover
 {
 	cursor:pointer;
 	background-image:url(../Images/icons/Cordless-Phone.png);
 	background-repeat:no-repeat;
-background-size:28px;
+background-size:25px;
 }
 
 
@@ -5845,8 +5702,8 @@ background-size:28px;
 {
     
     width: 93%;
-    height:360px;  
-    margin:5px 0px 0px 15px;
+    height:auto;  
+    margin:5px 0px 0px 10px;
    
 }
 .info
@@ -5862,41 +5719,40 @@ background-size:28px;
 }
 .info_box
 {
-    width:auto;
-    height: 120px;
+    width:100%;
+    height: auto;
     margin:20px 0px 0px 0px;
-   
     float: left;
-    display: table;
-   
 }
 
     .box1 {
   
         float: left;
-        width: 28%;
-        height: 280px;
+        width: 100%;
+            height:310px;
+            
     }
 .boximg
 {
-    width: 80px;
+    width:100%;
+    float: left;
+
 }
 .box2
 {
      float: left;
-   width:28%;
-    height: 300px;
-       margin: 0px 0px 0px 20px;
-      
-}
-.box3
-{
-    float:left;
-    width:28%;
-    height:300px;
-     margin: 0px 0px 0px 20px;
+     width: 100%;
+     height:310px;
+    margin: 0px 0px 0px 0px;
     
 }
+    .box3 {
+         float: left;
+        width: 100%;
+            height:310px;
+  
+        margin: 0px 0px 0px 0px; 
+    }
 .info-head
 {
     margin: 10px 0px 0px 0px;
@@ -5907,13 +5763,14 @@ background-size:28px;
 }
 .info-content
 {
-    height:150px;
+   
     font-family: 'Segoe UI',AvalonN,Arial;
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 13px;
     text-align: justify;
     color: #8A8A8A;
-  
+    float: left;
+    height: auto;
 }
 .more_info
 {
@@ -5937,31 +5794,30 @@ background-size:28px;
 .info_more_img
 {
     margin: 4px 0px 0px 0px;
-    float: right;
 }
 
 
-.edu_adv
+.edu_adv 
 {
-    width:100%;
-     height: 270px;
-    margin: 0px auto;
-    
+   width: 100%;
+   height: auto;
+   float: left;
+ 
+   margin:0px auto;
 }
 .edu
 {
-    width:45%;
-    height: 270px;
-    float: left;
+   width:95%;
+   height: auto;
+   float: left;
     margin: 0px 0px 0px 20px;
-     
 }
 .adv
 {
- width: 45%;
- height: 220px;
-    float: right;   
-   
+ width:95%;
+ height: auto;
+ float:left;
+ margin: 20px 0px 0px 20px;
 }
 .edu_adv_heading
 {
@@ -5975,41 +5831,38 @@ background-size:28px;
 .edu_adv_box
 {
     width: 90%;
-    height: 350px;
     float: left;
     border-top: solid 1px #22741F;
     border-right: solid 1px #f3f3f3;
     border-left: solid 1px #f3f3f3;
     border-bottom: solid 1px #f3f3f3;
-    -webkit-box-shadow: 0 6px 6px -2px #CFCFCF;
-	-moz-box-shadow: 0 6px 6px -2px #CFCFCF;
-    box-shadow: 0 6px 6px -2px #CFCFCF;
-   
+    -webkit-box-shadow: 0 4px 5px -2px #CFCFCF;
+	-moz-box-shadow: 0 4px 5px -2px #CFCFCF;
+    box-shadow: 0 4px 5px -2px #CFCFCF;
+    height: auto;
+    margin: 20px 0px 0px 0px;
 }
 
-
-
-
-.edu_text
+.edu_adv_box .edu_text
 {
-    height:300px;
     font-family: 'Segoe UI',AvalonN,Arial;
     font-weight: lighter;
-    font-size: 8px;
+    font-size: 13px;
     text-align: justify;
     color: #8A8A8A;
-    margin: 20px 30px 0px 20px;
-   
+    float: left;
+   height: auto;
+    
 }
-.edu_text a
+.link-to-pdf
 {
-   font-family: 'Segoe UI',AvalonN,Arial;
+    font-family: 'Segoe UI',AvalonN,Arial;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 13px;
     text-align: justify;
     color: #494949; 
 }
-.edu_text a:hover
+.link-to-pdf:hover
 {
     text-decoration: underline;
 }
@@ -6052,14 +5905,14 @@ background-size:28px;
 {
     width: 100%;
     height: 130px;
-    background: none;
+   
 }
 .footer_inside
 {
     width:80%;
     height:130px;
-    margin: 10px 10px 10px 40px;
-        background: none;
+    margin: 10px 10px 10px 30px;
+     
 }
 
 .blank{
@@ -6070,20 +5923,22 @@ background-size:28px;
 
 .footer_copy
 {
-    width: 200px;
+    width:100%;
     margin: 0px auto;
-    height: 50px;
+    height: auto;
     font-size: 11px;
     color:#494949;
+    float: left;
+    
 }
 
 .footer_menu
 {
     padding:0;
-    margin:0px 0px 0px 0px;
+    
      list-style-type:none;
       float: left;
-        width: 80px;
+        width: 60px;
 }
 
 .footer_menu li a
@@ -6115,7 +5970,7 @@ background-size:28px;
 .hr
 {
     width: 100%;
-    max-width: 100%;
+   
     height: 1px;
     background-color: #fff;
 }
