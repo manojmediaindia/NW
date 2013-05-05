@@ -5379,7 +5379,8 @@ filter:alpha(opacity=90);
     background-repeat:no-repeat;
 	background-position:center;
 	display:inline-block;
-    margin: 10px 0px 0px 10px;
+    margin: 10px 0px 0px 265px;
+    
     opacity:0.2;
 	filter:alpha(opacity=20);
 
