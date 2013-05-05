@@ -7,7 +7,7 @@
 <title>Nature Wave</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Nature Wave, le sp�cialiste du conseil et des solutions relatives aux pollutions �lectromagn�tiques" />
+<meta name="description" content="Nature Wave, le spécialiste du conseil et des solutions relatives aux pollutions électromagnétiques" />
 <meta name="Keywords" content="Nature Wave, Wifi Protection, Electro Waves, Protection" />
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
@@ -18,7 +18,7 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
  
 
-<link href="Style/Style.css" rel="stylesheet" type="text/css" media="screen, projection" />
+<link href="Style/style.css" rel="stylesheet" type="text/css" media="screen, projection" />
 
 </head>
 

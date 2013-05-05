@@ -32,12 +32,13 @@
 <div id="pull">
     <a class="toggleMenu" href="#">&nbsp;</a>
     <ul id="nav-two-neo">
-	<li><a href="">Présentation</a></li>
+    <li><a href="">Présentation</a></li>
     <li><a href="">Etudes et informations</a></li>
         <li><a href="">Conseils et solutions</a></li>
             <li><a href="">Contacts</a></li>
 </ul>
     </div>    
-    <!-- Second menu ends  !-->        </div>
+    <!-- Second menu ends  !-->
+        </div>
 </div>
 
