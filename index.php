@@ -31,50 +31,7 @@
 
     <div class="index_container">
     
-             <div class="midsection">
-<div class="row-fluid">
-<section>
-<ul>
-<li class="span1">
-<div class="wifi"></div><a href="#" title="Wifi"></a>
-</li>
-<li class="span1">
-<div class="cellantenna"></div><span><a href="#" title="Cell Antenna"></a></span>
-</li>
-<li class="span1">
-<div class="bluetooth"></div><span><a href="#" title="Bluetooth"></a></span>
-</li>
-<li class="span1">
-<div class="cordlessphone"></div><span><a href="#" title="Phone"></a></span>
-</li>
-<li class="span1">
-<div class="tablet"></div><span><a href="#" title="Tablet"></a></span>
-</li>
-<li class="span1">
-<div class="laptop"></div><span><a href="#" title="Laptop"></a></span>
-</li>
-<li class="span1">
-<div class="powerline"></div><span><a href="#" title="Power Line"></a></span>
-</li>
-<li class="span1">
-<div class="babyphone"></div><span><a href="#" title="Baby Phone"></a></span>
-</li>
-<li class="span1">
-<div class="electricmeter"></div><span><a href="#" title="Electric Meter"></a></span>
-</li>
-<li class="span1">
-<div class="homeprotection"></div><span><a href="#" title="Home Protection"></a></span>
-</li>
-<li class="span1">
-<div class="smartphone"></div><span><a href="#" title="Smart Phone"></a></span>
-</li>
-</ul>
-</section>
-</div>
-    
-    
-    
-    </div>
+              <?php include("icons.php"); ?>
 
         <div class="info_container">
 
