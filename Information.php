@@ -4,8 +4,8 @@
     <head>
         <meta charset="utf-8" />
         <title>Information</title>
-        <link rel="icon" href="images/favicon.gif" sizes="32x32" />
-        <link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon" />
+        <link rel="icon" href="Images/favicon.gif" sizes="32x32" />
+        <link rel="shortcut icon" href="Images/favicon.gif" type="image/x-icon" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
         </script>
@@ -61,10 +61,10 @@
                                 <p>La solution CMO WD17 (Oscillateur Magnétique de Compensation) repose sur plus de 10 années de recherche et est le produit retenu par Nature Wave pour un usage concentré sur la prévention face aux risques des ondes Wifi. Par ailleurs...</p>
                                 <div class="solution_stuffs">
                                     <div class="solution_stuffs_img">
-                                        <img src="images/wifi-protection.gif" width="120px" alt="">
+                                        <img src="Images/wifi-protection.gif" width="120px" alt="">
                                     </div>
                                     <div class="solution_stuffs_img1">
-                                        <a href=""><img src="images/add_to_cart_blue.gif" width="120px" title="Add to Cart" alt="Add to Cart"></a>
+                                        <a href=""><img src="Images/add_to_cart_blue.gif" width="120px" title="Add to Cart" alt="Add to Cart"></a>
                                     </div>
                                     <div class="solution_stuffs_img2">
                                         <a href=""><img style="float: left;" src="Images/Technology_desc.gif" width="50px" title="Technology Description" alt="Technology Description"></a>
