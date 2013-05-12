@@ -9,7 +9,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
         </script>
-        <link href="Style/style.css" rel="stylesheet" type="text/css" media="screen, projection" />
+        <link href="Style/Style.css" rel="stylesheet" type="text/css" media="screen, projection" />
     </head>
     <body>
         <?php include("header.php"); ?> 
