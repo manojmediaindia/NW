@@ -15,7 +15,7 @@
         <div class="Catalogue_full">
             <div class="Catalogue_main">
         <div class="banner_cat">
-        <img src="../images/Nature_wave_catalogue.jpg   " alt="Banner">
+        <img src="Images/Nature_wave_catalogue.jpg   " alt="Banner">
         </div>
             <div class="Protection_telephone">
             <div class="Text_Bar">
@@ -23,7 +23,7 @@
             </div>
                 <div class="Protection_container">
                     <div class="Protection_container_image">
-                     <img src="../Images/Protection_téléphone_portable.jpg" alt="Protection_téléphone_portable">
+                     <img src="Images/Protection_téléphone_portable.jpg" alt="Protection_téléphone_portable">
                     </div>
                     <div class="Protection_container_text">
                     <p>
@@ -58,7 +58,7 @@ Des milliers de clients sont satisfaits de l’usage Mega Protect Phone depuis p
                     </div>
                     
                         <div class="Protection_add_to_cart">
-                        <a href=""><img src="../Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
+                        <a href=""><img src="Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
                         </div>
 
 
@@ -80,7 +80,7 @@ Des milliers de clients sont satisfaits de l’usage Mega Protect Phone depuis p
             </div>
                 <div class="Protection_container">
                     <div class="Protection_container_image">
-                     <img src="../Images/Habitate.gif" alt="Protection_téléphone_portable">
+                     <img src="Images/Habitate.gif" alt="Protection_téléphone_portable">
                     </div>
                     <div class="Protection_container_text">
                     <p>
@@ -114,7 +114,7 @@ Cette solution se présente sous la forme d’une ovoïde (œuf) de 12 centimèt
                     </div>
                     
                         <div class="Protection_add_to_cart">
-                        <a href=""><img src="../Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
+                        <a href=""><img src="Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
                         </div>
 
 
@@ -132,7 +132,7 @@ Cette solution se présente sous la forme d’une ovoïde (œuf) de 12 centimèt
             </div>
                 <div class="Protection_container">
                     <div class="Protection_container_image">
-                     <img src="../Images/wifi-protection_page.gif" alt="Protection_téléphone_portable">
+                     <img src="Images/wifi-protection_page.gif" alt="Protection_téléphone_portable">
                     </div>
                     <div class="Protection_container_text">
                     <p>
@@ -165,7 +165,7 @@ Avec les CMO, ces équipements deviennent « Bio-compatibles » ou compatible fa
                     </div>
                     
                         <div class="Protection_add_to_cart">
-                        <a href=""><img src="../Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
+                        <a href=""><img src="Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
                         </div>
 
 
@@ -186,7 +186,7 @@ Avec les CMO, ces équipements deviennent « Bio-compatibles » ou compatible fa
             </div>
                 <div class="Protection_container">
                     <div class="Protection_container_image">
-                     <img src="../Images/ordinateur_portable.jpg" alt="Protection_téléphone_portable">
+                     <img src="Images/ordinateur_portable.jpg" alt="Protection_téléphone_portable">
                     </div>
                     <div class="Protection_container_text">
                     <p>
@@ -220,7 +220,7 @@ La technologie ayant servi à la conception de cette protection s'appuie sur le 
                     </div>
                     
                         <div class="Protection_add_to_cart">
-                        <a href=""><img src="../Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
+                        <a href=""><img src="Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
                         </div>
 
 
@@ -242,7 +242,7 @@ La technologie ayant servi à la conception de cette protection s'appuie sur le 
             </div>
                 <div class="Protection_container">
                     <div class="Protection_container_image">
-                     <img src="../Images/High_Tension.gif" alt="Protection_téléphone_portable">
+                     <img src="Images/High_Tension.gif" alt="Protection_téléphone_portable">
                     </div>
                     <div class="Protection_container_text">
                     <p>
@@ -276,7 +276,7 @@ Cette solution est particulièrement conseillée pour les résidents proches de 
                     </div>
                     
                         <div class="Protection_add_to_cart">
-                        <a href=""><img src="../Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
+                        <a href=""><img src="Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
                         </div>
 
 
@@ -302,7 +302,7 @@ Cette solution est particulièrement conseillée pour les résidents proches de 
             </div>
                 <div class="Protection_container">
                     <div class="Protection_container_image">
-                     <img src="../Images/Antennes.gif" alt="Protection_téléphone_portable">
+                     <img src="Images/Antennes.gif" alt="Protection_téléphone_portable">
                     </div>
                     <div class="Protection_container_text">
                     <p>
@@ -335,7 +335,7 @@ Cette solution est particulièrement conseillée pour les habitations à proximi
                     </div>
                     
                         <div class="Protection_add_to_cart">
-                        <a href=""><img src="../Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
+                        <a href=""><img src="Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
                         </div>
 
 
@@ -362,7 +362,7 @@ Cette solution est particulièrement conseillée pour les habitations à proximi
             </div>
                 <div class="Protection_container">
                     <div class="Protection_container_image">
-                     <img src="../Images/Protection_téléphone_portable.jpg" alt="Protection_téléphone_portable">
+                     <img src="Images/Protection_téléphone_portable.jpg" alt="Protection_téléphone_portable">
                     </div>
                     <div class="Protection_container_text">
                     <p>
@@ -397,7 +397,7 @@ Cette solution se présente sous la forme d’une plaquette adhésive ultra fine
                     </div>
                     
                         <div class="Protection_add_to_cart">
-                        <a href=""><img src="../Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
+                        <a href=""><img src="Images/add_to_cart_green.gif" alt="Add to Cart" title="Add to Cart"></a>
                         </div>
 
 
