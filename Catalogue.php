@@ -23,7 +23,7 @@
             </div>
                 <div class="Protection_container">
                     <div class="Protection_container_image">
-                     <img src="Images/Protection_téléphone_portable.jpg" alt="Protection_téléphone_portable">
+                     <img src="Images/Protection_telephone_portable.jpg" alt="Protection_téléphone_portable">
                     </div>
                     <div class="Protection_container_text">
                     <p>
@@ -362,7 +362,7 @@ Cette solution est particulièrement conseillée pour les habitations à proximi
             </div>
                 <div class="Protection_container">
                     <div class="Protection_container_image">
-                     <img src="Images/Protection_téléphone_portable.jpg" alt="Protection_téléphone_portable">
+                     <img src="Images/Protection_telephone_portable.jpg" alt="Protection_téléphone_portable">
                     </div>
                     <div class="Protection_container_text">
                     <p>
